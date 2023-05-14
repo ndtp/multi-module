@@ -1,7 +1,7 @@
-package com.example.module2
+package com.mypackage.module2
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 class ModuleTwoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

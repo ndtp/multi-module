@@ -1,4 +1,4 @@
-package com.example.appfeatures
+package com.mypackage.appfeatures
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -1,6 +1,7 @@
-package com.example.module1
+package com.mypackage.mypackage
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.mypackage.MainActivity
 import dev.testify.ScreenshotRule
 import dev.testify.annotation.ScreenshotInstrumentation
 import org.junit.Assert.*
@@ -12,11 +13,11 @@ import org.junit.runner.RunWith
 class ExampleInstrumentedTest {
 
     @get:Rule
-    val rule = ScreenshotRule(ModuleOneActivity::class.java)
+    val rule = ScreenshotRule(MainActivity::class.java)
 
     @ScreenshotInstrumentation
     @Test
-    fun moduleOne() {
+    fun app() {
         rule.assertSame()
     }
 }

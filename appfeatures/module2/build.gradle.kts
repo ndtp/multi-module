@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.module2"
+    namespace = "com.mypackage.module2"
     compileSdk = 33
 
     defaultConfig {
@@ -47,7 +47,7 @@ dependencies {
 }
 
 testify {
-    applicationPackageId = "com.example.module2.test"
-    testPackageId = "com.example.module2.test"
+    applicationPackageId = "com.mypackage.module2.test"
+    testPackageId = "com.mypackage.module2.test"
     moduleName = ":appfeatures:module2"
 }

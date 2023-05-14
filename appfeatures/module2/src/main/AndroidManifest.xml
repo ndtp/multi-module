@@ -3,7 +3,7 @@
 
     <application>
         <activity
-            android:name=".ModuleTwoActivity"
+            android:name="com.mypackage.module2.ModuleTwoActivity"
             android:theme="@style/Theme.AppCompat.Light"
             android:exported="false" />
     </application>
